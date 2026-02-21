@@ -11,13 +11,13 @@ from PandaXMusic.utils.database import add_served_chat, get_assistant
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1aac9a42f6f35138da34b.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://files.catbox.moe/sq3uc9.jpg",
+        caption=f"""🍁 CODE ယူရန် အောက်က ခလုတ်ကို နှိပ်ပါ 🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://github.com/khithlainhtet/PandaXMusic"
+                        " 🤍CODE🤍 ", url=f"https://github.com/khithlainhtet/PandaXMusic"
                     )
                 ]
             ]
