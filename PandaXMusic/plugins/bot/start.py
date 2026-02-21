@@ -117,7 +117,7 @@ async def start_pm(client, message: Message, _):
 
             await lols.edit_text("**⚡ѕтαятιиg.**")
             await lols.edit_text("**⚡ѕтαятιиg....**")
-            m = await message.reply_photo("https://files.catbox.moe/go8is9.webm")
+            m = await message.reply_photo("https://files.catbox.moe/jebxwm.jpg")
             if message.chat.photo:
 
                 userss_photo = await app.download_media(
