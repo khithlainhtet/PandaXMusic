@@ -67,10 +67,10 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/HANTHAR999"),
+            InlineKeyboardButton(text="Channel", url="https://t.me/myanmarbot_music"),
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/myanmarbot_music"),
         ],
-        [InlineKeyboardButton(text=_["TG Premium ဝယ်ယူရန်"], url="https://t.me/HANTHAR_1999")],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="ᴄʟᴏsᴇ")],
     ]
 
 
@@ -85,10 +85,10 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/HANTHAR999"),
+            InlineKeyboardButton(text="Channel", url="https://t.me/myanmarbot_music"),
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/myanmarbot_music"),
         ],
-        [InlineKeyboardButton(text=_["TG Premium ဝယ်ယူရန်"], url="https://t.me/HANTHAR_1999")],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="ᴄʟᴏsᴇ")],
     ]
 
 
