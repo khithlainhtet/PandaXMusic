@@ -79,7 +79,7 @@ def aq_markup(_, chat_id):
                 text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/myanmar_music_Bot2027"
             ),
         ],
-        [InlineKeyboardButton(text=_["TG Premium ဝယ်ယူရန်"], url="https://t.me/HANTHAR_1999")],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
