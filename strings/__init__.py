@@ -3,7 +3,7 @@ from typing import List
 
 import yaml
 
-LOGGERS = "Panda_king__robot"
+LOGGERS = "Panda_king_HTrobot"
 
 languages = {}
 languages_present = {}
