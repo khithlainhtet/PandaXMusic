@@ -11,13 +11,13 @@ from PandaXMusic.utils.database import add_served_chat, get_assistant
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://files.catbox.moe/sq3uc9.jpg",
+        photo=f"https://files.catbox.moe/ffsk8y.jpg",
         caption=f"""🍁 CODE ယူရန် အောက်က ခလုတ်ကို နှိပ်ပါ 🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " 🤍CODE🤍 ", url=f"https://github.com/khithlainhtet/PandaXMusic"
+                        " 🤍CODE🤍 ", url=f"https://files.catbox.moe/wc1clf.mp4"
                     )
                 ]
             ]
@@ -28,13 +28,13 @@ async def help(client: Client, message: Message):
 @app.on_message(filters.command("clone"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1aac9a42f6f35138da34b.jpg",
+        photo=f"https://files.catbox.moe/ffsk8y.jpg",
         caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner Or Sudo Users For Clone.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://github.com/khithlainhtet/PandaXMusic"
+                        "ƨσʋяcɛ", url=f"https://files.catbox.moe/sa26q5.mp4"
                     )
                 ]
             ]
@@ -68,7 +68,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @Systumm_music_bot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @HANTHAR1999_bot`**"
         )
         return
 
