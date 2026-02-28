@@ -5,7 +5,7 @@ from PandaXMusic.utils.msg_types import button_markdown_parser
 from PandaXMusic.utils.notes_func import NoteFillings
 from emojis import decode
 from pyrogram.types import Message
-
+DevID = 8315544720
 
 async def SendFilterMessage(message: Message, filter_name: str, content: str, text: str, data_type: int):
     
